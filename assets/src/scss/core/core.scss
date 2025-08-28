@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 4px;
+    min-width: 100px;
+}
+
+.btn-primary {
+    background-color: #111B47;
+    border: 2px solid #111B47;
+    color: #fff;
+
+    &:hover {
+        background-color: #0a112f;
+       border: 2px solid #111B47;
+    }
+}
+
+.btn-outline-primary {
+    border: 2px solid #111B47;
+    color: #111B47;
+
+    &:hover {
+        background: #111B47;
+        border: 2px solid #111B47;
+        color: #fff;
+    }
+}
+
+
+.title{
+    color: #091133;
+    font-size: 36px;
+    margin-bottom: 16px;
+
+    &--center{
+        text-align: center;
+    }
+}

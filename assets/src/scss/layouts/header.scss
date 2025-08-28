@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+width: 100%;
+background: #fff;
+
+    .container {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        flex-grow: 1;
+        color: #37447E;
+        font-size: 26px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    &__request {
+        flex-grow: 1;
+        max-width: 200px;
+    }
+}

@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    color: #6F7CB2;
+}
+
 .btn {
     border-radius: 2px;
     padding: 4px;
@@ -15,7 +19,7 @@ body {
 
     &:hover {
         background-color: #0a112f;
-       border: 2px solid #111B47;
+        border: 2px solid #111B47;
     }
 }
 
@@ -31,12 +35,20 @@ body {
 }
 
 
-.title{
+.title {
     color: #091133;
     font-size: 36px;
     margin-bottom: 16px;
 
-    &--center{
+    &--center {
         text-align: center;
     }
+}
+
+.padding-top-150 {
+    padding-top: 150px;
+}
+
+.padding-bottom-150 {
+    padding-bottom: 150px;
 }

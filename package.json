@@ -1,5 +1,5 @@
 {
-  "name": "website-design",
+  "name": "Introducing-products",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,7 @@
     "dev": "mix",
     "watch": "mix watch",
     "prod": "mix --production", 
-    "build": "your-build-command",
-    "build:fonts": "cp -r node_modules/fontello/fonts/ public/fonts/ && cp node_modules/fontello/css/fontello.css public/css/"
+    "build": "your-build-command"
   },
   "author": "",
   "license": "ISC",

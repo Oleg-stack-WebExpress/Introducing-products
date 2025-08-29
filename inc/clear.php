@@ -56,4 +56,4 @@ function artabr_opengraph_fix_yandex($lang)
 }
 
 
-add_filter('use_block_editor_for_post', '__return_false', 10);
+//add_filter('use_block_editor_for_post', '__return_false', 10);

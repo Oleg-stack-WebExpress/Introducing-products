@@ -23,12 +23,8 @@
         <div><img src="https://mc.yandex.ru/watch/103865815" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/dist/css/fontello.css">
-</head>
+     
+    </head>
 
 <body>
     <header class="header">

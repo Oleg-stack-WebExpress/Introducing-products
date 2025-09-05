@@ -9,31 +9,28 @@
     <?php wp_head(); ?>
 
     <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103951656', 'ym');
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=103951656', 'ym');
 
-    ym(103951656, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/103951656" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-     
-    </head>
+        ym(103951656, 'init', { ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer", accurateTrackBounce: true, trackLinks: true });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/103951656" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+</head>
 
 <body>
-   <header class="header">
+    <header class="header">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <div class="header__grid">
-                <!-- Логотип -->
-                <div class="header__col header__col--logo">
-                    <a class="header__logo" href="/">Landing</a>
-                </div>
-                
                 <!-- Меню -->
                 <div class="header__col header__col--menu">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,9 +48,14 @@
                     </div>
                 </div>
                 
+                <!-- Логотип -->
+                <div class="header__col header__col--logo">
+                    <a class="header__logo" href="/">Landing</a>
+                </div>
+                
                 <!-- Кнопка Purchase -->
                 <div class="header__col header__col--button">
-                    <a class="header__request btn btn-primary" href="#">Purchase now</a>
+                    <a class="header__request btn btn-primary" href="#">Buy Now</a>
                 </div>
                 
                 <!-- Кнопка меню -->
